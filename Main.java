@@ -82,9 +82,11 @@ public class Main{
                         input.close();
                         return;
 
+                    // ERRO
                     default:
                         System.out.println("Opcao invalida. Tente novamente");
                 }
+            // ERRO
             }catch (InputMismatchException e){
                 System.out.println("Entrada invalida. Por favor, digite um numero.");
                 input.nextLine();
